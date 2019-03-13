@@ -1,0 +1,30 @@
+{
+  "name": "express-ez-router",
+  "version": "0.1.0",
+  "description": "Easy Handling Express Router",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/knighthell/express-ez-router.git"
+  },
+  "dependencies": {
+    "express": "^4.0.0"
+  },
+  "keywords": [
+    "express",
+    "router",
+    "api"
+  ],
+  "author": {
+    "name" : "David Im",
+    "email" : "knighthell@gmail.com"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/knighthell/express-ez-router/issues"
+  },
+  "homepage": "https://github.com/knighthell/express-ez-router#readme"
+}

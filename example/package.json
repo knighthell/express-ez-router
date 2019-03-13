@@ -1,0 +1,9 @@
+{
+  "name": "express-ez-router-example",
+  "version": "0.1.0",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-ez-router": "^0.1.0",
+    "multer": "^1.4.1"
+  }
+}
