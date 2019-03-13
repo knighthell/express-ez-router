@@ -19,8 +19,8 @@
     "api"
   ],
   "author": {
-    "name" : "David Im",
-    "email" : "knighthell@gmail.com"
+    "name": "David Im",
+    "email": "knighthell@gmail.com"
   },
   "license": "Apache-2.0",
   "bugs": {

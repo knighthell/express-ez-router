@@ -1,5 +1,4 @@
 # express-ez-router
-=====================
 > Easy Handling Restful API for Express Router
 
 ##Installation
@@ -11,10 +10,11 @@ app.js (Main Script File)
 
     const express = require('express');
     const ezRouter = require('express-ez-router');
+    
     const PORT = process.env.PORT || 8080;
     
     const app = express();
-    app.use(ezRouter('./api', '.api.js')); // or (['./api', './api2'], '.api.js')
+    app.use(ezRouter('./api', '.api.js'));
     
     app.listen(PORT, () => {
         console.log(`API Server Started. PORT: ${PORT}`);
@@ -25,7 +25,7 @@ app.js (Main Script File)
     .
     ├── ...
     ├── api                                 # API Router Moudule Directory
-    │   ├──memo
+    │   ├──todo
     │   │   ├── create-todo.api.js          # POST Method return Created Todo JSON Object API
     │   │   ├── read-todos.api.js           # GET Method return Todo JSON Array API
     │   │   ├── update-todo-by-id.api.js    # GET Method return Todo JSON Object API
