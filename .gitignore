@@ -200,3 +200,4 @@ typings/
 
 /package-lock.json
 /example/package-lock.json
+/.idea/
