@@ -1,11 +1,11 @@
 # express-ez-router
 > Easy Handling Restful API for Express Router
 
-##Installation
+## Installation
     
     $ npm install express-ez-router --save
     
-##Example
+## Example
 app.js (Main Script File)
 
     const express = require('express');
@@ -21,7 +21,8 @@ app.js (Main Script File)
         console.log('If you wanna EXIT, Press Ctrl+C.');
     });
     
-###Example Project Structure
+### Example Project Structure
+
     .
     ├── ...
     ├── api                                 # API Router Moudule Directory
